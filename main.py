@@ -4,7 +4,7 @@ import tensorflow as tf
 
 def parse():
     #best: 0.5,0.01
-    parser = argparse.ArgumentParser(description="variational autoencoder")
+    parser = argparse.ArgumentParser(description="cycle GAN")
     parser.add_argument('-model_dir','--model_dir',default='train_model',help='output model weight dir')
     parser.add_argument('-model_path','--model_path',help='latest model path')
     parser.add_argument('-batch_size','--batch_size',default=36,type=int,help='batch size')
@@ -18,7 +18,7 @@ def parse():
     parser.add_argument('-train',action='store_true',help='whether train')
     parser.add_argument('-test',action='store_true',help='whether test')
     parser.add_argument('-file_test',action='store_true',help='whether test input file')
-    parser.add_argument('-mode',default='all',help='pretrain_discriminator or pretrain_gan or pretrain_autoencoder or all')
+    parser.add_argument('-mode',default='all',help='type pretrain or all')
     args = parser.parse_args()
     return args
 
