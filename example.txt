@@ -1,0 +1,14 @@
+Negative sentence to positive sentence:
+
+it's a crappy day -> it's a great day
+i wish you could be here -> you could be here
+it's not a good idea -> it's good idea
+i miss you -> i love you
+i don't love you -> i love you
+i can't do that -> i can do that
+i feel so sad -> i happy
+it's a bad dat -> it's a good day
+it's a crappy day -> it's a great day
+sorry for doing such a horrible thing -> thanks for doing a great thing
+my doggy is sick -> my doggy is my doggy
+i am so hungry -> i am so

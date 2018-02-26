@@ -1,0 +1,7 @@
+model_checkpoint_path: "whole_model-64000"
+all_model_checkpoint_paths: "whole_model-59000"
+all_model_checkpoint_paths: "whole_model-60000"
+all_model_checkpoint_paths: "whole_model-61000"
+all_model_checkpoint_paths: "whole_model-62000"
+all_model_checkpoint_paths: "whole_model-63000"
+all_model_checkpoint_paths: "whole_model-64000"
