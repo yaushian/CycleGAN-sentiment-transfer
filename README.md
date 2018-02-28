@@ -1,6 +1,9 @@
 # CycleGAN on Text Sentiment Transfer
   Unsupervised learning sentiment transfer from negative to positive and vice versa.  
 
+## Implementation
+*retrain a word2vec model.
+* 
 ## Training
 First pretrain generator by auto-encoder and create pretrai model:  
 `$ python3 main.py -train -mode pretrain -model_dir 'your model path'`  
@@ -20,4 +23,8 @@ Run test:
   i can't do that-> i can do that  
   it's such a bad day-> it's such a good day  
   such a sad day->such a happy day  
-  no it's not a good idea->it it ' s good idea  
+  no it's not a good idea->it it ' s good idea
+
+## Acknoledgement
+  The discriminator part of code I used can be found at   
+  `https://github.com/igul222/improved_wgan_training`  
